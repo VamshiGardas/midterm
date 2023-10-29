@@ -1,0 +1,24 @@
+footer {
+  background-color: #1360ad;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+footer p {
+  margin: 0;
+  font-size: inherit;
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.8rem;
+    /* position: static; --> Comment or remove this line */
+    padding: 3px 0;
+  }
+}
